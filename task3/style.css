@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: 'Jura', 'Sans serif';
+    font-size: 5vw;
+}
+#message{
+    font-family: 'Jura', 'Sans serif';
+    font-size: 2vw;
+    color: rgb(45, 142, 45);
+
+}
+#country{
+    font-family: 'Jura', 'Sans serif';
+    font-size: 4vw;
+    color: rgb(111, 205, 29);
+}
+
+
+#city{
+    font-family: 'Jura', 'Sans serif';
+    font-size: 3vw;
+    color: rgb(45, 121, 142);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 377px) {
+
+    .main{
+        display: block;
+    }
+    .header{
+        height: 60vw;
+    }
+    .headingone{
+        font-size: 9.5vw;
+    }
+    .headingtwo{
+        font-size: 5.3vw;
+        width: 91vw;
+        margin-left: 5vw;
+    }
+    .headingthree{
+        font-size: 5vw;
+    }
+    .image{
+        width:90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        border-radius: 50vw;
+    }
+    h2{
+        font-size: 6.36vw;
+        width: 100vw;
+    }
+    .imgone {
+        top: 56vw;
+        bottom: 0vw;
+        position: absolute;
+        left: 0vw;
+        z-index: -3;
+        width: 35vw;
+    }
+    .imgtwo {
+        top: 252vw;
+        bottom: 0vw;
+        position: absolute;
+        left: 3vw;
+        z-index: -3;
+        width: 32vw;
+    }
+    .imgthree {
+        top: 181vw;
+        bottom: 0vw;
+        position: absolute;
+        left: 65vw;
+        z-index: -3;
+        width: 36vw;
+    }
+    .imgfour {
+        top: 365vw;
+        bottom: 0vw;
+        position: absolute;
+        left: 71vw;
+        z-index: -3;
+        width: 30vw;
+    }
+
+    
+}
